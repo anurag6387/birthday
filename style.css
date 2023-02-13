@@ -1,0 +1,92 @@
+
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size:30px ;
+    color: rgb(36, 0, 128);
+    margin-bottom:10cm;
+    
+}
+.image1{
+    background-image: url(birthday.jpg);
+    position: relative;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    
+}
+.headline{
+    background-color: yellow;
+    padding: 20px;
+    color:blueviolet;
+    border: solid black;
+    border-radius: 15px;
+    text-shadow: 5px 5px 8px rgb(173, 12, 12) ;
+    font-weight: 200;
+    font-size: 45px;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* transition-property: all; */
+    transition-duration: 1s;
+   
+}
+.headline:hover{
+    background-color: pink;
+    color: wheat;
+   
+    transition-timing-function: ease-out;
+}
+.image2{
+    background-color: aqua;
+    background-image: url(bhaiya.jpg);
+    position: relative;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    transition-duration: 1s;
+}
+.image2:hover{
+    background-image: url(bhaiya2.jpg);
+    transition-timing-function: ease-out;
+}
+.wish{
+    background-color: rgba(242, 244, 107, 0.447);
+    text-shadow: 3px 3px 7px red;
+}
+.second{
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.second{
+    color: aliceblue;
+    background-color: rgba(69, 63, 116, 0.509);
+}
+.image3{
+
+    background-image: url(bhaiya33.jpg);
+    position: relative;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+
+
+.thirdpara{
+    background-color: black;
+    color: white;
+}
+.head{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
